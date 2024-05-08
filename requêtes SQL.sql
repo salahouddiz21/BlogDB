@@ -1,17 +1,17 @@
                      /*SELECT*/
-SELECT * FROM Administrateur
-SELECT * FROM Administrateur WHERE ID_administrateur=1;
+SELECT * FROM Administrator
+SELECT * FROM Administrator WHERE ID_administrator=1;
 
                     /*ajouter,*/
-INSERT INTO Administrateur(Nom,Email,Mot_de_passe) VALUES('abdo','abdo@gmail.com','azeAZE&"é14');
-ALTER TABLE Administrateur ADD home INT;
+INSERT INTO Administrator(Nom,Email,Mot_de_passe) VALUES('salah','salah.ouddiz@gmail.com','azeAZE&"é14');
+ALTER TABLE Administrator ADD home INT;
 
                    /*UPDATE*/
-UPDATE Administrateur SET ID_administrateur=1 WHERE ID_administrateur=2;
+UPDATE Administrator SET ID_Administrator=1 WHERE ID_Administrator=2;
                   /*supprimer */
-DELETE FROM Administrateur WHERE ID_administrateur=2;
-ALTER TABLE Administrateur DROP COLUMN home;
-DROP TABLE Administrateur;
+DELETE FROM Administrator WHERE ID_Administrator=2;
+ALTER TABLE Administrator DROP COLUMN home;
+DROP TABLE Administrator;
 
 
 
